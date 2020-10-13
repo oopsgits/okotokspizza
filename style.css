@@ -2,6 +2,8 @@ body {
     background-color: rgb(64, 195, 228);
   }
   
+  .pizzaphoto{height: 25%; width: 25%;}
+
   h1 {
     color: white;
     text-align: center;
