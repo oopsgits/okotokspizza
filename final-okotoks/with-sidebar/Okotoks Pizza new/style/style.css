@@ -177,7 +177,6 @@ h3 {
 }
 
 .menu_items .item {
-    height: 350px;
     padding: 0 20px;
     display: flex;
     flex-direction: column;
@@ -186,23 +185,39 @@ h3 {
     border-radius: 20px;
     overflow: hidden;
     align-items: center;
+    
+    
 }
+.donair-image {
+    background-image: url("../img/donair-pizza.jpeg");}
 
 .menu_items .item .image {
-    width: 140px;
-    height: 140px;
+    /* background-image: url("../img/donair-pizza.jpeg"); */
+    width: 350px;
+    height: 350px;
     border-radius: 100px;
     overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2000px;
+
+    
 }
 
-/* .menu_items .item img {
+.menu_items .item .img {
     width: 100%;
     height: 100%;
-} */
+}
 
 .menu_items .item .title {
+    background-image: url("../img/donair-pizza.jpeg");
     text-align: center;
     margin: 10px 0;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2000px;
+    width: 350px;
+    height: 350px;
 }
 
 .menu_items .item p {
@@ -342,7 +357,7 @@ section a:hover {
     justify-content: center;
 }
 
-..title span {
+.banner .title span {
     font-size: 70px;
     color: #fff;
 }
