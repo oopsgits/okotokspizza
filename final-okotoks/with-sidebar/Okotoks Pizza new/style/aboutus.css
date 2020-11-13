@@ -12,6 +12,18 @@
     flex-direction: column;
     justify-content: center;
 }
-.container{
-    /* grid-column: 1 / 4; */
+/* .container{
+    grid-column: 1 / 4; 
+} */
+
+
+@media only screen and (min-width: 768px) {
+    .grid-wrapper {
+        grid-template-rows: 100px 1fr 50px;
+        grid-template-columns: 150px 1fr 150px;
+        grid-template-areas: 
+            'header header header'
+            'sidebar1 content sidebar2'
+            'footer footer footer'
+    }
 }
